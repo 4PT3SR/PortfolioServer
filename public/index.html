@@ -17,6 +17,27 @@
             font-family: monospace;
             
         }
+        nav {
+            width: 80%;
+            border: 2px solid white;
+            color: white;
+            margin: 0 auto;
+            border-radius: .5rem;
+        }
+
+        nav ul {
+            list-style: none;
+            justify-content: center;
+            display:flex;
+            flex-direction: row;
+        }
+        a {
+            color: white;
+            text-decoration: none;
+        }
+        a:hover {
+            color: rgb(179, 177, 177);
+        }
         div {
             width:50%;
             text-align: center;
@@ -35,7 +56,7 @@
             /* margin-bottom: -3rem; */
         }
 
-        ul {
+       ul {
             list-style: none;
             font-size:1rem;
         }
@@ -47,6 +68,13 @@
 </head>
 <body>
 <main>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/contact">Contact</a></li>
+        </ul>
+    </nav>
     <div>
         <h3>Data</h3>
     <ul>

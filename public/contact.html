@@ -18,6 +18,31 @@
             background-color: rgba(0, 0, 0, 0.968);
             color: white;
         }
+        nav {
+            width: 80%;
+            border: 2px solid white;
+            color: white;
+            margin: 0 auto;
+            border-radius: .5rem;
+            font-size:1rem;
+        }
+
+        nav ul {
+            list-style: none;
+            justify-content: center;
+            display:flex;
+            flex-direction: row;
+        }
+        nav ul li {
+            padding: 0.7rem;
+        }
+        a {
+            color: white;
+            text-decoration: none;
+        }
+        a:hover {
+            color: rgb(179, 177, 177);
+        }
         div {
             width:70%;
             text-align: center;
@@ -44,6 +69,13 @@
     </style>
 </head>
 <body>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/contact">Contact</a></li>
+        </ul>
+    </nav>
     <div>
         <a href="https://twitter.com/apt3sr" target="_blank"><i class="fa-brands fa-twitter"></i></a>
         <a href="https://github.com/void-4" target="_blank"><i class="fa-brands fa-github"></i></a>
